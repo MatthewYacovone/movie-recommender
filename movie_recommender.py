@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 # Load data
-ratings_path = 'ml-1m/ratings.dat'
-movies_path = 'ml-1m/movies.dat'
+ratings_path = 'naive-bayes/ml-1m/ratings.dat'
+movies_path = 'naive-bayes/ml-1m/movies.dat'
 
 df_ratings = pd.read_csv(ratings_path, header=None, sep='::', engine='python')
 df_movies = pd.read_csv(movies_path, header=None, sep='::', engine='python', encoding='latin1')
